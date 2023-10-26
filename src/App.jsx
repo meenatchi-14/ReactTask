@@ -5,7 +5,7 @@ function App() {
   const data=[{
     subTitle:"FREE",
     title:"0",
-    user:"Single",
+    user:"Single User",
     L6:"✘",
     L7:"✘",
     L8:"✘",
@@ -15,7 +15,7 @@ function App() {
   {
     subTitle:"PLUS",
     title:"9",
-    user:"5",
+    user:"5 Users",
     L6:"✔",
     L7:"✔",
     L8:"✔",
@@ -25,7 +25,7 @@ function App() {
   {
     subTitle:"PRO",
     title:"49",
-    user:"Unlimited",
+    user:"Unlimited User",
     L6:"✔",
     L7:"✔",
     L8:"✔",
@@ -59,7 +59,7 @@ function Price(prop){
       <h4 className='sub'>{prop.subTitle}</h4>
       <h1 className='title'>${prop.title}/month</h1>
       <div className='details'>
-        <p> ✔ {prop.user} Users</p><br/>
+        <p> ✔ {prop.user}</p><br/>
         <p> ✔ 50GB Storage</p><br/>
         <p> ✔ Unlimited Public Projects</p><br/>
         <p> ✔ Community Access</p><br/>

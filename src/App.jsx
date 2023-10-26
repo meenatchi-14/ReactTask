@@ -25,7 +25,7 @@ function App() {
   {
     subTitle:"PRO",
     title:"49",
-    user:"Unlimited User",
+    user:"Unlimited Users",
     L6:"✔",
     L7:"✔",
     L8:"✔",

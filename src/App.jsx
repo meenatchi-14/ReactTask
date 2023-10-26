@@ -10,6 +10,7 @@ function App() {
     L7:"✘",
     L8:"✘",
     L9:"✘",
+    
   },
   {
     subTitle:"PLUS",
@@ -56,16 +57,16 @@ function Price(prop){
     
     <div className='card'>
       <h4 className='sub'>{prop.subTitle}</h4>
-      <h1 className='title'>${prop.title}/months</h1>
+      <h1 className='title'>${prop.title}/month</h1>
       <div className='details'>
-        <p>{prop.user} Users</p><br/>
+        <p> ✔ {prop.user} Users</p><br/>
         <p> ✔ 50GB Storage</p><br/>
         <p> ✔ Unlimited Public Projects</p><br/>
         <p> ✔ Community Access</p><br/>
-        <p>{prop.L6} Unlimited Private Projects</p><br/>
-        <p>{prop.L7} Dedicated Phone Support</p><br/>
-        <p>{prop.L8} Free Subdomain</p><br/>
-        <p>{prop.L9} Monthly Status Reports</p><br/>
+        <p style={{color: prop.L6==="✔"?"black":"gray"}}>{prop.L6}Unlimited Private Projects</p><br/>
+        <p style={{color: prop.L7==="✔"?"black":"gray"}}>{prop.L7} Dedicated Phone Support</p><br/>
+        <p style={{color: prop.L8==="✔"?"black":"gray"}}>{prop.L8} Free Subdomain</p><br/>
+        <p style={{color: prop.L9==="✔"?"black":"gray"}}>{prop.L9} Monthly Status Reports</p><br/>
         <div className='btn'>
         <span>BUTTON</span>
     </div>
